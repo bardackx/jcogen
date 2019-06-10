@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mapping>
+	<function name="ZMFMM_CATALOGOS" ignore="true">
+		<export>IT_ZCECOS_RESPONS</export>
+		<export>IT_SOCIEDAD_RFC</export>
+		<export>IT_ZCECOS_USERS</export>
+		<export>IT_ZT_IVA</export>
+		<export>IT_ZT_PROVEEDORES</export>
+		<export>IT_ZT_COSTOS</export>
+		<export>IT_ZT_CUENTASM</export>
+	</function>
+	<function name="ZMF_GV_ANTICIPO" ignore="false">
+	</function>
+	<function name="ZMF_GV_FB60" ignore="false">
+		<export>ZTT_CAB_GV_FB60</export>
+		<export>ZTT_MSJ_GV_FB60</export>
+		<export>ZTT_POS_GV_FB60</export>
+	</function>
+	<function name="ZMFFI_CAJA_CHICA" ignore="false">
+		<export>ZTT_POS_CAJA_CHICA</export>
+	</function>
+	<function name="ZMFMM_CALL_FB60" ignore="true">
+	</function>
+	<function name="ZMFMM_CARGA_FACTURAS_NCT" ignore="false">
+	</function>
+	<function name="ZMFMM_CARGA_FACTURAS_OCT" ignore="false">
+		<export>EM_CARGA</export>
+	</function>
+	<function name="ZMFMM_CARGA_FACTURAS" ignore="false">
+		<import>EM_CARGA</import>
+	</function>
+	<function name="ZMFMM_CARGA_MASIVA" ignore="false">
+	</function>
+	<function name="ZMFMM_CONSULTA_FACT" ignore="false">
+		<export>IT_CONSULTA_FACT</export>
+	</function>
+	<function name="ZMFMM_EXT_EM_PEDIDO" ignore="false">
+		<export>EXTPORT_ZPO_DETAIL</export>
+	</function>
+	<function name="ZMFMM_EXT_OC_TECNICA" ignore="false">
+	</function>
+	<function name="ZMFMM_EXT_PEDIDOS" ignore="false">
+		<export>EXT_PEDIDOS</export>
+	</function>
+	<function name="ZMFMM_EXT_POS_OC_TECNICA" ignore="false">
+	</function>
+	<function name="ZMFMM_PROVLIST" ignore="false">
+		<export>IT_PROVLIST</export>
+	</function>
+	<function name="ZMFMM_RES_PROV_TECNICO" ignore="false">
+	</function>
+	<function name="ZMFMM_TXTCAB_RET" ignore="false">
+		<export>ZTT_TXTCABECERA</export>
+		<export>ZTT_RETENCIONES</export>
+	</function>
+</mapping>

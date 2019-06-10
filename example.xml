@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mapping>
+    <function name="ZMFMM_CATALOGOS" ignore="true">
+        <export>IT_ZCECOS_RESPONS</export>
+        <export>IT_SOCIEDAD_RFC</export>
+        <export>IT_ZCECOS_USERS</export>
+        <export>IT_ZT_IVA</export>
+        <export>IT_ZT_PROVEEDORES</export>
+        <export>IT_ZT_COSTOS</export>
+        <export>IT_ZT_CUENTASM</export>
+    </function>
+</mapping>

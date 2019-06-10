@@ -1,0 +1,8 @@
+
+/target/
+*.class
+*.prefs
+*.classpath
+*.trc
+*.project
+settings.json
